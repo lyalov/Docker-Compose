@@ -120,7 +120,7 @@ Ctrl+C.
 
 Ответ 4
 
-![alt text](https://github.com/lyalov/Docker-Compose/blob/4.png) 
+![alt text](https://github.com/lyalov/Docker-Compose/blob/main/4.png) 
 
 ОТВЕТ 5  :И выполните команду "docker compose up -d". Какой из файлов был запущен и почему? (подсказка: https://docs.docker.com/compose/compose-application-model/#the-compose-file )
 
@@ -132,4 +132,5 @@ The default path for a Compose file is compose.yaml (preferred) or compose.yml t
 ![alt text](https://github.com/lyalov/Docker-Compose/blob/finish.png)
 
 Docker Compose обнаружил сиротский контейнер task5-fix-portainer-1, который был создан ранее из файла compose.yaml, но сейчас этот файл удалён. Контейнер больше не управляется текущей конфигурацией ,остался только docker-compose.yaml с сервисом registry.
+
 
