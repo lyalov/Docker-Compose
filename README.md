@@ -116,7 +116,7 @@ Ctrl+C.
 Ответ 3.8
 Контейнер принимает входящие соединения на порт 8080 хоста и перенаправляет их в контейнер на порт 80. Но после изменения конфигурации nginx стал слушать порт 81, а порт 80 больше не используется. Поэтому запросы с хоста попадают в пустой порт внутри контейнера, и соединение не удаётся установить. Это ловушка :)  , но есть обходной путь https://www.baeldung.com/ops/assign-port-docker-container
 
-![alt text](https://github.com/lyalov/Docker-Compose/blob/history.png )
+![alt text](https://github.com/lyalov/Docker-Compose/blob/main/finish.png)
 
 Ответ 4
 
@@ -127,10 +127,11 @@ Ctrl+C.
 Был запущен только compose.yaml, потому что согласно официальной документации Docker Compose:
 The default path for a Compose file is compose.yaml (preferred) or compose.yml that is placed in the working directory. Compose also supports docker-compose.yaml and docker-compose.yml for backwards compatibility of earlier versions. If both files exist, Compose prefers the canonical compose.yaml.
 
-![alt text](https://github.com/lyalov/Docker-Compose/blob/I_will_be.png) 
-![alt text](https://github.com/lyalov/Docker-Compose/blob/driver.png) 
-![alt text](https://github.com/lyalov/Docker-Compose/blob/finish.png)
+![alt text](https://github.com/lyalov/Docker-Compose/blob/main/I_will_be.png) 
+![alt text](https://github.com/lyalov/Docker-Compose/blob/main/driver.png) 
+![alt text](https://github.com/lyalov/Docker-Compose/blob/main/finish.png)
 
 Docker Compose обнаружил сиротский контейнер task5-fix-portainer-1, который был создан ранее из файла compose.yaml, но сейчас этот файл удалён. Контейнер больше не управляется текущей конфигурацией ,остался только docker-compose.yaml с сервисом registry.
+
 
 
