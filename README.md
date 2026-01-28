@@ -1,4 +1,3 @@
-# Docker-Compose
 
 Домашнее заданияе Ялова Л.В 
 К занятию 4 «Оркестрация группой Docker контейнеров на примере Docker Compose»
@@ -133,5 +132,6 @@ I_will_be.png
 driver.png
 
 finish.png
+
 
 Docker Compose обнаружил сиротский контейнер task5-fix-portainer-1, который был создан ранее из файла compose.yaml, но сейчас этот файл удалён. Контейнер больше не управляется текущей конфигурацией ,остался только docker-compose.yaml с сервисом registry.
